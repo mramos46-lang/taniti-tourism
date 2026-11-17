@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Taniti hotels, resort, bed and breakfasts, and hostel, with reservation planning guidance.">
+  <title>Lodging | Visit Taniti</title>
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script> 
+  <script src="script.js" defer></script>
+  <noscript>
+  <style>
+  .navbar-collapse.collapse {
+    display: block;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .accordion-collapse.collapse {
+    display: block;
+  }
+  </style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header navbar navbar-expand-md">
+    <div class="container header-inner"> <a class="brand" href="index.html" aria-label="Visit Taniti home">taniti<span>.</span></a>
+      <button class="menu-toggle navbar-toggler" data-bs-toggle="collapse" data-bs-target="#primary-navigation" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation menu"><span class="navbar-toggler-icon" aria-hidden="true"></span></button>
+      <nav id="primary-navigation" class="collapse navbar-collapse" aria-label="Main navigation">
+        <div class="primary-nav navbar-nav ms-auto">
+          <a href="lodging.html" aria-current="page">Lodging</a>
+          <a href="activities.html">Activities</a>
+          <a href="dining.html">Dining</a>
+          <a href="transportation.html">Transportation</a>
+          <a href="faqs.html">Travel FAQs</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="container">
+    <div class="page-intro">
+      <h1>Lodging</h1>
+      <p>Find a place to settle in, from an inexpensive hostel to a four-star resort. Taniti also offers small, family-owned hotels and a growing selection of bed and breakfasts.</p>
+    </div>
+    <section class="section">
+      <div class="section-heading text-center">
+        <h2>Accommodations</h2>
+        <p>Explore the island’s lodging options and choose the kind of stay that suits your trip. <a href="#reservation-information">Reservation Information</a></p>
+      </div>
+      <p class="reservation-link text-center"></p>
+      <div class="row row-cols-1 row-cols-md-2 content-grid info-grid">
+        <div class="col">
+          <article class="info-item"><span class="icon" aria-hidden="true">⌂</span>
+            <div>
+              <h3>Hotels</h3>
+              <p>Small, family-owned hotels offer another way to stay on the island. Contact a property to ask about room options for your travel party.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+          <article class="info-item"><span class="icon" aria-hidden="true">☀</span>
+            <div>
+              <h3>Resort</h3>
+              <p>Taniti has one large, four-star resort. Confirm its current room options, rates, and availability directly before making plans.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+          <article class="info-item"><span class="icon" aria-hidden="true">☕</span>
+            <div>
+              <h3>Bed &amp; Breakfasts</h3>
+              <p>A growing number of bed and breakfasts provide alternatives to hotels and the resort.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+          <article class="info-item"><span class="icon" aria-hidden="true">▦</span>
+            <div>
+              <h3>Hostel</h3>
+              <p>An inexpensive hostel is available for visitors seeking a lower-cost lodging option.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <div class="narrow">
+      <section class="note">
+        <h2>Regulated and Inspected Accommodations</h2>
+        <p>All types of lodging on Taniti are strictly regulated and regularly inspected by the Tanitian government.</p>
+      </section>
+      <section class="reservation" id="reservation-information">
+        <h2>Planning Your Stay</h2>
+        <p>Contact your preferred accommodation directly to confirm availability, rates, and reservations.</p>
+        <ol>
+          <li>Choose your travel dates and confirm how many people will be staying.</li>
+          <li>Ask the property about available rooms and whether they can accommodate your whole party.</li>
+          <li>Confirm the total price, cancellation terms, and reservation arrangements before booking.</li>
+        </ol>
+        <article class="sample-listing">
+          <div>
+            <h3>Taniti Garden Hotel</h3>
+            <p>Use this example to review the reservation information.</p>
+          </div>
+          <button class="button no-arrow" type="button" data-bs-toggle="modal" data-bs-target="#reservation-dialog">View Reservation Details</button>
+        </article>
+        <noscript>
+        <p>Sample reservation guidance is provided above. This fictional property cannot accept reservations.</p>
+        </noscript>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top"><a class="brand" href="index.html" aria-label="Visit Taniti home">taniti<span>.</span></a>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="lodging.html">Lodging</a>
+          <a href="activities.html">Activities</a>
+          <a href="dining.html">Dining</a>
+          <a href="transportation.html">Transportation</a>
+          <a href="faqs.html">Travel FAQs</a>
+        </nav>
+      </div>
+      <div class="credits">
+        <p>© 2026 Visit Taniti · WGU assessment prototype</p>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" tabindex="-1" aria-hidden="true" id="reservation-dialog" aria-labelledby="reservation-title" aria-describedby="reservation-notice">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="dialog-close" type="button" data-bs-dismiss="modal" aria-label="Close reservation details">×</button>
+          <h2 id="reservation-title">Taniti Garden Hotel</h2>
+          <p>When contacting a hotel, have these details ready.</p>
+          <ul>
+            <li>Your preferred arrival and departure dates.</li>
+            <li>The number of adults and children in your party.</li>
+            <li>Room requirements and any accessibility needs.</li>
+          </ul>
+          <p>Ask the property to confirm availability, the total rate, cancellation terms, and how to secure your reservation.</p>
+          <p class="dialog-notice" id="reservation-notice">Live availability, contact details, and reservations would be included here.</p>
+          <button class="button no-arrow" type="button" data-bs-dismiss="modal">Return to Lodging</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
